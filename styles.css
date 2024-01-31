@@ -1,0 +1,33 @@
+body{
+      background-color: #82CDFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.header{
+      width: 100%;
+      display: flex ;
+      flex-direction: column;
+      align-items: center;
+}
+.winner{
+      color: white;
+      background-color: #009ff0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 33px;
+      height: 74px;
+      width: 430px;
+      border-radius: 12px 12px 0px 0px;
+}
+.scoreboard{
+      background-color: #009ff0;
+      border-radius: 17px;
+      width: 55%;
+      height: 148px;
+
+
+}
