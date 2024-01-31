@@ -1,9 +1,11 @@
 body{
       background-color: #82CDFF;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-
+      width: 100vw;
+      height: 100vh;
 }
 
 .header{
@@ -12,6 +14,7 @@ body{
       flex-direction: column;
       align-items: center;
 }
+
 .winner{
       color: white;
       background-color: #009ff0;
@@ -23,11 +26,102 @@ body{
       width: 430px;
       border-radius: 12px 12px 0px 0px;
 }
+
 .scoreboard{
       background-color: #009ff0;
       border-radius: 17px;
-      width: 55%;
+      width: 60%;
       height: 148px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
 
+.players{
+      color: white;
+      font-size: 38px;
+      font-weight: 700;
+}
 
+.score{
+      background-color: #DBF1FF;
+      color: #009ff0;
+      display:flex ;
+      justify-content: center;
+      align-items: center;
+      width: 131px;
+      height: 120px;
+      font-size: 104px;
+      font-weight: 900;
+      border-radius: 19px;
+}
+
+.score-versus{
+      color: #ffff;
+      font-size: 58px;
+      width: 74px;
+      height: 78px;
+}
+
+.play-area{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2%;
+      background-color: #82CDFF ;
+      width: 100%;
+      height: 45%;
+      padding: 0 2%;
+      gap: 16px;
+}
+
+.button-move-wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between ;
+      height: 100%;
+}
+
+.button-move{
+      background-color: #009ff0;
+      color: #ffff;
+      border: 1px solid #009ff0;
+      height: 80px;
+      width: 220px;
+      border-radius: 8px;
+      font-size: 44px;
+      cursor: pointer;
+      transition-duration: 300ms;
+}
+
+.button-move:hover{
+      background-color: white;
+      color: #009ff0;
+}
+
+.board{
+      background-color: #009ff0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 17px;
+      width: 100%;
+      height: 100%;
+}
+
+.player-move{
+      background-color: #DBF1FF;
+      border-radius: 17px;
+      width: 35%;
+      height: 80%;
+}
+
+.player-versus{
+      color: white;
+      font-size: 104px;
+}
+
+.start-game{
+      display: flex;
+      margin-top: 22px;
+      gap: 101px;
 }
