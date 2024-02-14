@@ -11,36 +11,36 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="winner">Jogadores</h1>
+        <h1 class="winner-title">Jogadores</h1>
         <div class="scoreboard">
             <span class="players">Jogador 1</span>
-            <span class="score">01</span>
+            <span class="score" id="score-1">00</span>
             <span class="score-versus">vs</span>            
-            <span class="score">01</span>
+            <span class="score" id="score-2">00</span>
             <span class="players">Jogador 2</span>
         </div>
     </header>
     <main class="play-area">
         <div class="button-move-wrapper">
-            <button class="button-move">Pedra</button>
-            <button class="button-move">Papel</button>
-            <button class="button-move">Tesoura</button>
+            <button class="button-move button-move-stone-1">Pedra</button>
+            <button class="button-move button-move-paper-1">Papel</button>
+            <button class="button-move button-move-scissors-1">Tesoura</button>
         </div>
         <div class="board">
-            <div class="player-move"></div>
+            <div class="player-move" id="move-box-1"></div>
             <span class="player-versus">vs</span>
-            <div class="player-move"></div>
+            <div class="player-move" id="move-box-2"></div>
 
         </div>
         <div class="button-move-wrapper">
-            <button class="button-move button-move-stone-1">Pedra</button>
-            <button class="button-move">Papel</button>
-            <button class="button-move">Tesoura</button>
+            <button class="button-move button-move-stone-2">Pedra</button>
+            <button class="button-move button-move-paper-2">Papel</button>
+            <button class="button-move button-move-scissors-2">Tesoura</button>
         </div>
     </main>
     <footer class="start-game">
-        <button class="button-move">Iniciar</button>
-        <button class="button-move">Resetar</button>
+        <button class="button-move button-start">Iniciar</button>
+        <button class="button-move button-reset">Resetar</button>
     </footer>
     <script src="index.js"></script>
 </body>

@@ -15,7 +15,7 @@ body{
       align-items: center;
 }
 
-.winner{
+.winner-title{
       color: white;
       background-color: #009ff0;
       display: flex;
@@ -110,9 +110,21 @@ body{
 
 .player-move{
       background-color: #DBF1FF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 17px;
       width: 35%;
       height: 80%;
+}
+
+#move-box-2 img{
+      transform: scaleX(-1);
+
+}
+
+.player-move img{
+      width: 80%;
 }
 
 .player-versus{
@@ -124,6 +136,15 @@ body{
       display: flex;
       margin-top: 22px;
       gap: 101px;
+}
+
+.started{
+      background-color: #4169e1;
+      border: 1px solid #4169e1;
+}
+
+.started:hover{
+      color: #4169e1;
 }
 
 @media screen and (max-width: 720px){
